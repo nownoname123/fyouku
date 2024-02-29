@@ -1,0 +1,23 @@
+syntax = "proto3";
+package proto;
+
+service UserService {
+  rpc UserLogin(RequestLogin) returns (ResponseLogin){}
+}
+
+option go_package="./;micro";
+
+message  RequestLogin{
+    string mobile = 1;
+    string password =2;
+}
+message  LoginUser {
+  int64  uid = 1;
+  string username = 2;
+}
+message  ResponseLogin{
+  int64 code = 1;
+  string msg =2;
+  LoginUser items = 3;
+  int64  count = 4;
+}

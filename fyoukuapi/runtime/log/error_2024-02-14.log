@@ -1,0 +1,3 @@
+{"level":"error","msg":"[]","mysql connect error":"sql: unknown driver \"mysql\" (forgotten import?)","time":"2024-02-14 00:02:05"}
+{"level":"error","msg":"[]","mysql connect error":"sql: unknown driver \"mysql\" (forgotten import?)","time":"2024-02-14 00:04:11"}
+{"level":"error","msg":"[]","mysql connect error":"Error 1045: Access denied for user 'fyouku'@'localhost' (using password: YES)","time":"2024-02-14 00:05:55"}
